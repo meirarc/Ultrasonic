@@ -5,13 +5,13 @@
 #include <stddef.h>
 
 
-typedef struct bufferCtl
-    {
-    float *pBegin;
-    float *pIndex;
-    size_t length;
-    bool filled;
-    } BufCtl;
+//typedef struct bufferCtl
+//    {
+//    float *pBegin;
+//    float *pIndex;
+//    size_t length;
+//    bool filled;
+//    } BufCtl;
 
 class Ultrasonic {
     

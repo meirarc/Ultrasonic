@@ -1,6 +1,12 @@
-/*
- * Ultrasonic.cpp - Library for HC-SR04 Ultrasonic Sensing Module.
- *
+/**
+ * @file Ultrasonic.cpp
+ * @author meirarc
+ * @version 0.1
+ * @date 2021-10-13
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ * @brief Ultrasonic.cpp - Library for HC-SR04 Ultrasonic Sensing Module.
  * Centimeters Divisor
  * =========== =======
  *  15.875     26.9029
@@ -22,10 +28,7 @@
  * 108.25      72.9473
  */
 
-//#include <stdlib.h>
-//#include <string.h>
 #include <Ultrasonic.h>
-
 
 Ultrasonic::Ultrasonic(int tp, int ep) {
     pinMode(tp, OUTPUT);
