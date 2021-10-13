@@ -1,6 +1,0 @@
-## Ultrasonic library
-
-This library was created to work with the HC-SR04 Ultrasonic sensor.
-
-It features timing, metric conversion (centimeter and inch) and standard
-deviation methods.

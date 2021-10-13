@@ -1,20 +1,20 @@
+/**
+ * @file Ultrasonic.h
+ * @author meirarc
+ * @version 0.1
+ * @date 2021-10-13
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ * @brief Ultrasonic.cpp - Library for HC-SR04 Ultrasonic Sensing Module.
+ */
+
 #ifndef ULTRASONIC_H
 #define ULTRASONIC_H
 
 #include <Arduino.h>
-//#include <stddef.h>
 
-
-//typedef struct bufferCtl
-//    {
-//    float *pBegin;
-//    float *pIndex;
-//    size_t length;
-//    bool filled;
-//    } BufCtl;
-
-class Ultrasonic {
-    
+class Ultrasonic {    
     public:
         Ultrasonic(int tp, int ep);
         long timing();
@@ -29,7 +29,6 @@ class Ultrasonic {
         int _echoPin;
         float _cmDivisor;
         float _inDivisor;
-
 };
 
 #endif 
