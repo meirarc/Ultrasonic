@@ -2,7 +2,7 @@
 #define ULTRASONIC_H
 
 #include <Arduino.h>
-#include <stddef.h>
+//#include <stddef.h>
 
 
 //typedef struct bufferCtl
