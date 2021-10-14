@@ -1,16 +1,16 @@
-# Ultrasonic
+# ⚙ Ultrasonic
 This library was created to work with the HC-SR04 Ultrasonic sensor.
 
 It features timing, metric conversion (centimeter and inch) and standard
 deviation methods.
 
-## Install
+## ⚡ Install
 
 1. Download the code
 2. Add the folder under `Arduino/libraries`
 3. Restart Arduino IDE
 
-## Library details
+## 🔧 Library details
 
 Public functions:
 
@@ -32,7 +32,7 @@ Public functions:
     set new divisor `value` to the `metric` in case need to adjust the precision
 
 
-## Example
+## 🖌 Example
 
 ```c++
 #include <Ultrasonic.h>
@@ -61,3 +61,11 @@ void loop() {
   delay(1000);
 }
 ```
+
+## 🙋‍♂️ Support & Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request if you have a way to improve this project.
+
+Make sure your request is meaningful and you have tested the app locally before submitting a pull request.
+
+💙 If you like this project, give it a ⭐ and share it with friends!
